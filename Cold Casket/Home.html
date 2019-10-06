@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home - Cold Casket</title>
+		<link href="Home Structure.css" rel="stylesheet"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="header">
+			<table width="100%" align="center" border="0">
+				<tr>
+					<td><img src="image/Logo.jpg" alt="Cold Casket Logo" width="100%"></td>
+					<td id="motto" width="75%" align="center">Leave No Dead Behind</td>
+				</tr>
+			</table>
+		</div>
+		<div class="navigation">
+			<ul>
+				<li> <a href="Home.html" class="active"> Home </a> </li>
+				<li> <a href="About Us.html"> About Us </a> </li>
+				<li> <a href="Services.html"> Services </a> </li>
+				<li> <a href="Packages.html"> Packages </a> </li>
+				<li> <a href="Info.html"> Info </a> </li>
+				<li> <a href="Contact Us.html"> Contact Us </a> </li>
+			</ul>
+		</div>
+		<hr/>
+		<div class="background">
+			<div class="slideshow-container">
+				<br/>
+				  <div class="mySlides">
+				  <img class="fade" src="image/group.jpg" width="100%" height="500px">
+				</div>
+
+				<div class="mySlides">
+				  <img class="fade" src="image/coffin.jpg" width="100%" height="500px">
+				</div>
+
+				<div class="mySlides">
+				  <img class="fade" src="image/ashes.jpg" width="100%" height="500px">
+				</div>
+
+				<div class="mySlides">
+				  <img class="fade" src="image/grief.jpg" width="100%" height="500px">
+				</div>
+
+				<div class="mySlides">
+					<img class="fade" src="image/hearse.jpg" width="100%" height="500px">
+				</div>
+				
+				<div class="mySlides">
+					<img class="fade" src="image/logo.jpg" width="100%" height="500px">
+				</div>
+
+			</div>
+			<br/>
+
+			<div style="text-align:center">
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+			
+
+			
+			<p class="font">Motto and Mission</p>
+			<img class="image" src="image/group.jpg" alt="group photo">
+			<p class="para">In Cold Casket, we believe that every one deserves a honourable send-off. Funerals are a time to celebrate the life of our loved one, to reminisce the memories and achievements of their lifetime. Each funeral we set up is carefully curated to combine modern aesthetics with the tradition of religion. Leave No Dead Behind - It is to tell our customers that there is no such thing as a impossible request and that we will cater to all regardless of race, religious and social class a proper rite and funeral as they, or their loved ones, depart for the afterlife.</p> 
+			<p class="font">What We Do</p>
+			<img class="image" src="image/consultation.jpg" alt="whatwedo">
+			<p class="para">Cold Casket PTE LTD is a company that specializes in funeral services. We provide numerous funeral solution and products while providing a peace of mind for all our griefing customers. Our repertoire of services includes professional Master of Ceremony services, concierge services that help to service guests. </p>
+			<br/>
+			<br/>
+			<img class="image" src="image/comingsoon.jpg" alt="comingsoon">
+			<br/>
+			<p class="para">We at cold casket are working on a service that allows our customers to customize the coffin where it will be the final resting place for their loved ones. We have a variety of choices from the materials used, the theme and desgin of the coffin, eletronic devices. One example is king-sized coffin that can fit two people inside. </p>
+			<br/>
+		</div>
+			<hr/>
+		<div class="footer">
+			<table border="0" width="90%" align="center">
+				<tr>
+					<td width="50%" rowspan="2"><p>Do not hesistate to contact us, we will always be here for you.<br/>Cold Casket PTE LTD<br/>127 lavender street<br/>+65 6553 8991<br/>contact@coldcasket.com.sg</p></td>
+					<td>
+						Certified by:<br/>
+						<img width="30%" src="image/CaseTrust.jpg" alt="Case Trust Logo">
+						<img width="40%" src="image/ISO.jpg" alt="ISO Logo">
+					</td>
+					<td>
+						Corporate Members:<br/>
+						<img width="55%" src="image/NFDA.jpg" alt="NFDA Logo">
+						<img width="40%" src="image/AFD.jpg" alt="AFD Logo">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						Payment Methods:<br/>
+						<img width="7%" src="image/Visa.jpg" alt="Visa Logo">
+						<img width="9%" src="image/Mastercard.jpg" alt="Master Card Logo">
+						<img width="8%" src="image/Americanexpress.jpg" alt="American Express Logo">
+						<img width="10%" src="image/Paypal.jpg" alt="Paypal Logo">
+						</td>
+					</tr>
+				</table>
+			</div>			
+		<script>
+		//Reference : http://www.w3schools.com/w3css/w3css_slideshow.asp //
+		var slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+			   slides[i].style.display = "none";  
+			}
+			
+			slideIndex++;
+			if (slideIndex> slides.length) {slideIndex = 1}    
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+		</script>
+	</body>
+</html>

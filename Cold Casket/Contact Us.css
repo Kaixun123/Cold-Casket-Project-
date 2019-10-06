@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+#motto{
+	font-style: italic;
+	font-family: garamond;
+	font-weight:bold;
+	font-size: 400%
+}
+.footer{
+	width: 100%;
+	font-family: garamond;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: #555;
+	color: white;
+}
+.services{
+	font-family: garamond;
+	font-weight: bold;
+	font-size: 100%;
+}
+.active{
+	background-color: #555;
+	color: white;
+}
+ul{
+	list-style-type: none;
+	margin: auto;	
+	padding: 0;
+	overflow: hidden;
+	align: center;
+	
+}
+li{
+	display: inline-block;
+	align: center;
+	font-size: 100%;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: garamond;
+}
+li a{
+	display: block;
+	padding: 14px 16px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	font-family: garamond;
+	font-weight: bold;
+}
+.navigation{
+	text-align: center;
+}
+.form{
+	float:right;
+	vertical-align:top;
+	position:relative;
+	right:10%;
+	}
+
+.map{
+	float:left;
+	text-align:center;
+	vertical-align:top;
+	position:relative;
+	left:10%;
+}
+.info{
+	 position: relative;
+	 left: 39px;
+	 font-size: 20px;
+		
+}
+hr{
+	width:100%;
+}
+h3{
+	font-family: garamond;
+}
+td{
+	font-family: garamond;
+}

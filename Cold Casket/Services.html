@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cold Casket</title>
+		<link href="Services.css" rel="stylesheet"/>
+		<link rel="icon" href="Tree.jpg"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript">
+			function PFS() {
+    			var x = document.getElementById('PFS');
+				var y = document.getElementById('EMP');
+				var z = document.getElementById('WM');
+				var w = document.getElementById('GC');
+				var v = document.getElementById('AP');
+    			if (x.style.display === 'none') {
+       					x.style.display = 'block';
+						y.style.display = 'none';
+						z.style.display = 'none';
+						w.style.display = 'none';
+						v.style.display = 'none';
+    			} else {
+        			x.style.display = 'none';
+    			}
+			}
+			function EMP() {
+				var x = document.getElementById('EMP');
+				var y = document.getElementById('PFS');
+				var z = document.getElementById('WM');
+				var w = document.getElementById('GC');
+				var v = document.getElementById('AP');
+				if (x.style.display == 'none')
+				{	x.style.display = 'block';
+					y.style.display = 'none';
+					z.style.display = 'none';
+					w.style.display = 'none';
+					v.style.display = 'none';
+				} else {
+					x.style.display = 'none';
+				}
+							}
+			function WM() {
+				var x = document.getElementById('WM');
+				var y = document.getElementById('PFS');
+				var z = document.getElementById('EMP');
+				var w = document.getElementById('GC');
+				var v = document.getElementById('AP');
+				if(x.style.display == 'none')
+				{ 	x.style.display ='block';
+					y.style.display = 'none';
+					z.style.display = 'none';
+					w.style.display = 'none';
+					v.style.display = 'none';
+				} else {
+					x.style.display = 'none';}
+				}
+			function GC() {
+				var x = document.getElementById('GC');
+				var y = document.getElementById('PFS');
+				var z = document.getElementById('EMP');
+				var w = document.getElementById('WM');
+				var v = document.getElementById('AP');
+				if(x.style.display == 'none')
+				{ 	x.style.display ='block';
+					y.style.display = 'none';
+					z.style.display = 'none';
+					w.style.display = 'none';
+					v.style.display = 'none';
+				} else {
+					x.style.display ='none';}
+				}
+			function AP() {
+				var x = document.getElementById('AP');
+				var y = document.getElementById('PFS');
+				var z = document.getElementById('EMP');
+				var w = document.getElementById('WM');
+				var v = document.getElementById('GC');
+				if (x.style.display == 'none')
+				{	x.style.display = 'block';
+					y.style.display = 'none';
+					z.style.display = 'none';
+					w.style.display = 'none';
+					v.style.display = 'none';
+				} else {
+					x.style.display = 'none';}
+				}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<table width="100%" align="center" border="0">
+				<tr>
+					<td><img src="logo/Logo.jpg" alt="Cold Casket Logo" width="100%"></td>
+					<td id="motto" width="75%" align="center">Leave No Dead Behind</td>
+				</tr>
+			</table>
+		</div>
+		<div class="navigation">
+			<ul>
+				<li class="navigationbar"> <a href="Home.html"> Home </a> </li>
+				<li class="navigationbar"> <a href="About Us.html"> About Us </a> </li>
+				<li class="navigationbar"> <a href="Services.html" class="active"> Services </a> </li>
+				<li class="navigationbar"> <a href="Packages.html"> Packages </a> </li>
+				<li class="navigationbar"> <a href="Info.html"> Info </a> </li>
+				<li class="navigationbar"> <a href="Contact Us.html"> Contact Us </a> </li>
+			</ul>
+		</div>
+		<hr/>
+			<div class="services">
+				<ul>
+				<label> <li>
+					<div class="PFScontainer" onclick="PFS()">
+						<img src="http://funeralcare.com.au/wp-content/uploads/2016/08/funeral-director.jpg" alt="PFS" class="PFSimage"/>
+							<div class="PFSmiddle">
+								<div class="PFStext"> Professional Funeral Services</div>
+							
+							</div>
+					</div>
+				</label> </li>
+				<label> <li>
+					<div class="EMPcontainer" onclick="EMP()">
+						<img src="http://www.jonesprofessionalvehicles.com/equip/stainless-embalming-Table.jpg" alt="EMP" class="EMPimage"/> 
+							<div class="EMPmiddle">
+								<div class="EMPtext"> Embalming & Make Up </div>
+							</div>
+					</div>
+				</label> </li>
+				<label> <li>
+					<div class="WMcontainer" onclick="WM()">
+						<img src="http://ad2com.net/wp-content/uploads/2016/04/Make-a-Will-%E2%80%93-Your-Step-by-Step-Guide.jpg" alt="WM" class="WMimage"/> 
+							<div class="WMmiddle">
+								<div class="WMtext"> Will Making and Estate Management </div>
+							</div>
+					</div>
+				</label> </li>
+				<label> <li>
+					<div class="GCcontainer" onclick="GC()">
+						<img src="http://insightpsychologybayside.com.au/wp-content/uploads/2012/10/grief.jpg" class="GCimage" alt="GC"/>
+							<div class="GCmiddle">
+								<div class="GCtext"> Grief Counselling </div>
+							</div>
+				</label> </li>
+				<label> <li>
+					<div class="APcontainer" onclick="AP()">
+						<img src="http://walkerfunerals.com/2016/wp-content/uploads/revslider/test/3.jpg" class="APimage" alt="AP"/>
+						<div class="APmiddle">
+							<div class="APtext"> Advanced Planning </div>
+						</div>
+					</div>
+				</label> </li>
+				</ul>
+			</div>
+			<div id="PFS">
+				<p style="font-size: 110%;"> At Cold Casket, our staff are committed in creating a memorable, meaningful, and dignified funeral to help the family honor the life of their loved one. </p>
+				<p style="font-size: 110%;"> We provide unqiue necessities like networks routers,coffee machines and much more for all our customers by giving them only the best service possible. </p>
+				<p style="font-size: 110%;"> With our comprehensive range of services that we offer to all religions, we strive to provide family with a total peace of mind in their most difficult times.</p>
+				<p style="font-size: 110%;"> Below is the list of services that we, as an established funeral parlour provide. </p>
+				<div class="facilites">
+				<ul>
+					<li>
+						<table class="tablebackground" border="0" cellpadding="5">
+							<tr>
+								<div style="overflow-x:auto">
+								<td> 
+									<p style="font-size: 110%;"> <strong> Set up of facilities for memorial services. </strong> </p> 
+									<p> Be it a tentage service at HDB void decks or a memorial service at our funeral parlour, Cold Casket is vastly experience in all types of memorial serivce facilites. </p>
+									<p> Take a look through our gallery on the right by clicking on the images to see the various types of facilities we have for memorial services. </p>
+								</td>
+								<td>
+									<div class="slideshow-container">
+										<div class="mySlides fade">
+											<img src="http://greenidgefuneralhomes.com/675/Ultra/DSC00377.jpg?mediaFile=true&rand=3520.895875546155" style="width:500px; height: 300px;"/>
+											<div class="text"> Memorial service at our funeral home </div>
+										</div>
+									<div class="mySlides fade">
+										<img src="http://www.tankhiamsoon.com/assets/img/christian-altar.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Christian funeral at HDB void deck </div>
+									</div>
+									<div class="mySlides fade">
+										<img src="http://sgbs.com.sg/wp-content/uploads/2015/08/20150705_1416072.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Buddhist funeral at HDB void deck </div>
+									</div>
+									<div class="mySlides fade">
+										<img src="http://www.budgetcasket.com.sg/wp-content/uploads/2016/06/free-thinker-parlour-300x228.png" style="width:500px; height:300px;"/>
+										<div class="text"> Freethinker funeral at HDB void deck </div>
+									</div>
+									<div class="mySlides fade">
+										<img src="http://teckhinundertaker.com.sg/wp-content/uploads/2014/05/83-640x415.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Taoist funeral at HDB void deck </div>
+									</div>
+									<div class="mySlides fade">
+										<img src="http://8020.photos.jpgmag.com/3068244_139794_7a4f8a0f5c_p.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Hinduism funeral </div>
+									</div>
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+									</div>
+									<br/>
+									<div style="text-align:center">
+										<span class="dot" onclick="currentSlide(1)"></span>
+										<span class="dot" onclick="currentSlide(2)"></span>
+										<span class="dot" onclick="currentSlide(3)"></span> 
+										<span class="dot" onclick="currentSlide(4)"></span>	
+										<span class="dot" onclick="currentSlide(5)"></span>
+										<span class="dot" onclick="currentSlide(6)"></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td> 
+									<p style="font-size: 110%;"> <strong> Catering of food and beverages. </strong> </p>
+									<p>	Cold Casket also offers catering service of food and beverages to the deceased's family members and visitors during the wake. </p>
+									<p> Our catering service is offered by Lee Catering, a food catering service under the Lee Conglomerate. </p>
+									<p> Lee Catering has over 50 years of experience catering food to different events. </p>
+									<p> Our gallery on the right shows the different types of food and beverages we cater. </p>
+								</td>
+								<td> 
+									<div class="slideshow-container">
+										<div class="mySlides2 fade2">
+											<img src="http://www.singaporefuneralservices.net/wp-content/uploads/2016/05/Funeral-Catering-1024x461.jpg" style="width:500px; height: 300px;"/>
+											<div class="text"> Buffet-style catering  </div>
+										</div>
+									<div class="mySlides2 fade2">
+										<img src="http://www.weddingbells.sg/wp-content/uploads/2015/09/Image1-2-Buffet-Setup-2-RS-768x1024.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Vegetarian buffet-style catering  </div>
+									</div>
+									<div class="mySlides2 fade2">
+										<img src="http://www.webstaurantstore.com/images/products/extra_large/42570/603515.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Beverage catering </div>
+									</div>
+									<div class="mySlides2 fade2">
+										<img src="http://4.imimg.com/data4/IO/FL/MY-3539832/nescafe-iv-option-vending-machine-500x500.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Nescafe beverage catering  </div>
+									</div>
+									<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+									</div>
+									<br/>
+									<div style="text-align:center">
+										<span class="dot2" onclick="currentSlide2(1)"></span>
+										<span class="dot2" onclick="currentSlide2(2)"></span>
+										<span class="dot2" onclick="currentSlide2(3)"></span> 
+										<span class="dot2" onclick="currentSlide2(4)"></span>	
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td> 
+									<p style="font-size: 110%;"> <strong> Set up of necessary amenities for family members and guests. </strong> </p>
+									<p> At Cold Casket, we believe that while mourning for the death, certain practical measures are still necessary. </p>
+									<p> On our gallery at the right is a display of the various amenities we provide. </p>
+								</td>
+								<td>
+									<div class="slideshow-container">
+										<div class="mySlides3 fade3">
+											<img src="http://www.acedisposal.net/toilets/Special-Events-Portable-Toilet-Interior-Exterior.jpg" style="width:500px; height: 300px;"/>
+											<div class="text"> Portable Toilet  </div>
+										</div>
+									<div class="mySlides3 fade3">
+										<img src="https://n2.sdlcdn.com/imgs/a/h/w/D-Link-Wifi-ADSL-Router-SDL523656598-1-73208.jpg" style="width:500px; height:300px;"/>
+										<div class="text"> Wifi Services  </div>
+									</div>
+									<div class="mySlides3 fade3">
+										<img src="https://s-media-cache-ak0.pinimg.com/originals/76/5b/e4/765be461d9987974dc37737a87e5dc9b.jpg" style="width:500px; height:300px;"/>
+										<div class="text" valign="middle"> Prayer Room </div>
+									</div>
+									<a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides3(1)">&#10095;</a>
+									</div>
+									<br/>
+									<div style="text-align:center">
+										<span class="dot3" onclick="currentSlide3(1)"></span>
+										<span class="dot3" onclick="currentSlide3(2)"></span>
+										<span class="dot3" onclick="currentSlide3(3)"></span> 
+									</div>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+				</div>
+			</div>
+			</div>
+			<div id="EMP">
+				<ul>
+					<li>
+						<table class="tablebackground">
+							<tr>
+								<td> 
+									<p style="font-size: 110%;"> <strong> Cold Casket has the world's best embalming and make up artists available to make sure your loved ones are properly dressed for their trip to the afterlife. </strong> </p>
+									<p> Our embalming and make up artist Mr James Hockin has up to 40 years of experience handling embalming and make up for the deceased. </p>
+									<p> With a team of 12 members, Mr Hockin is not only an practioner but also a mentor to aspiring youngsters looking to carve a career in this industry. </p>
+								</td>
+								<td style="width:30%;">
+									<img src="http://www.abc.net.au/news/image/5964942-3x2-940x627.jpg" alt="embalming" style="width:80%"/>
+								</td>
+							</tr>
+						</table>
+					</li>
+			</div>
+			<div id="WM">
+				<ul>
+					<li>
+						<table class="tablebackground">
+							<tr>
+								<td>
+									<p style="font-size: 110%;"> <strong> Cold Casket has a dedicated team of lawyers to help you with your will making and estate management. </strong> </p>
+									<p> They will help you with the step by step process of creating a proper and well-written will and professional handle problems relating to the will of deceased loved ones.</p>
+									<p> Our team of lawyers are lead by our senior partner, Mr Juay Kai Xun, who specialises in estate management laws and also a certified counsellor. </p>
+									<p> Mr Juay has been managing estates and facilitated will-making for large and wealthy families before our director, Mr Lee Ming Han, gave him a chance to join Cold Casket. </p>
+									<p> Inspired by his mentor who retired from corporate law to go into legal clinics to provide legal counsel at little to no cost for the commoners, Mr Juay saw a chance to give back to society. </p>
+									<p> Mr Juay is strong and determined to help all to solve the various legal issues regarding estates and wills after one has pass on. </p>
+								</td>
+								<td style="width: 30%;">
+									<img src="image/Kai Xun.jpg" alt="Kai Xun" style="width: 60%; margin-left: auto; margin-right: auto;"/>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+			</div>
+			<div id="GC">
+				<ul>
+					<li>
+						<table class="tablebackground">
+							<tr>
+								<td>
+									<p style="font-size: 110%;"> <strong> Cold Casket offers qualified grief counsellors to mourning loved ones when one has passed. </strong> </p>
+									<p> Our lead grief counsellor, Juay Kai Xun, is ready to help you recover from your lost and help get you back up on your feet. </p>
+									<p> Besides being a lawyer, Mr Juay is also a certified counsellor under the Singapore Association for Counselling. </p>
+									<p> Mr Juay graduated from the Harvard University class of 2009, with a Masters Degree in Psychology science and ounselling. </p>
+									<p> In his free time, Mr Juay also volunteers at the Boy's Home, offering them both tuition and counselling. </p>
+								</td>
+								<td style="width: 30%;">
+									<img src="image/Kai Xun.jpg" alt="Gan Phua Li Eh Chi Bai" style="width: 60%;"/>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+			</div>
+			<div id="AP">
+				<ul>
+					<li>
+						<table class="tablebackground" border="0">
+							<tr>
+								<td>
+									<p style="font-size: 110%;"> <strong> Although considered taboo, we at Cold Casket believe that planning ahead is good as it helps to relieve the stress of planning for a funeral. </strong> </p>
+									<p> We make sure that your loved ones are well taken care for by our professional and dedicated team to ensure a total peace of mind. </p>
+									<p> Our arrangements will be smooth, systematic, according to your wishes and within expected costs.  </p>
+									<p> Cold Casket's very own Brynner Soh has been in the funeral industry for 20 years and is able to faciliate you in advanced planning. </p>
+									<p> At Cold Casket, we believe that advanced planning of funeral is a gift, a gift which will ease your family's financial and emotional burden when the time comes. </p>
+									<p> By advanced planning, we can allow your family to make important decisions before one moves on. </p>
+									<p> Most importantly. you will be in control of all the decisions related to your funeral. </p>
+									<p> Every year, hundreds of customers contact Cold Casket to start their advanced planning journey with Mr Soh. </p>
+									<p> Contact us @ +65 6553 8991 or contact@coldcasket.com.sg to start your advanced planning journey today. </p>
+								</td>
+								<td style="width: 30%;">
+									<img src="image/Brynner.jpg" alt="Brynner" style="width:60%;margin:auto;"/>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+			</div>
+		<hr/>
+		<div class="footer">
+			<table border="0" width="90%" align="center">
+				<tr>
+					<td width="50%" rowspan="2">
+						<p>
+							Do not hesistate to contact us, we will always be here for you
+							<br/> 
+							Cold Casket PTE LTD
+							<br/>
+							127 Lavender Street
+							<br/>
+							+65 6553 8991
+							<br/>
+							contact@coldcasket.com.sg
+						</p>
+					</td>
+					<td>
+						Certified by:<br/>
+						<img width="30%" src="logo/CaseTrust.jpg" alt="Case Trust Logo">
+						<img width="40%" src="logo/ISO.jpg" alt="ISO Logo">
+					</td>
+					<td>
+						Corporate Members:<br/>
+						<img width="55%" src="logo/NFDA.jpg" alt="NFDA Logo">
+						<img width="40%" src="logo/AFD.jpg" alt="AFD Logo">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						Payment Methods:<br/>
+						<img width="7%" src="logo/Visa.jpg" alt="Visa Logo">
+						<img width="9%" src="logo/Mastercard.jpg" alt="Master Card Logo">
+						<img width="8%" src="logo/Americanexpress.jpg" alt="American Express Logo">
+						<img width="10%" src="logo/Paypal.jpg" alt="Paypal Logo">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<script type="text/javascript">
+				var slideIndex = 1;
+				showSlides(slideIndex);
+				
+				var slideIndex2= 1;
+				showSlides2(slideIndex2);
+				
+				var slideIndex3= 1;
+				showSlides3(slideIndex3);
+
+				function plusSlides(n) {
+	  			showSlides(slideIndex += n);
+				}
+				function plusSlides2(n) {
+	  			showSlides2(slideIndex2 += n);
+				}
+				function plusSlides3(n) {
+	  			showSlides3(slideIndex3 += n);
+				}
+
+				function currentSlide(n) {
+	  			showSlides(slideIndex = n);
+				}
+				function currentSlide2(n) {
+	  			showSlides2(slideIndex2 = n);
+				}
+				function currentSlide3(n) {
+	  			showSlides3(slideIndex3 = n);
+				}
+				function showSlides(n) {      /!-----Slide Show for memorial serivce-----!/
+	  			var i;
+	  			var slides = document.getElementsByClassName("mySlides");
+	  			var dots = document.getElementsByClassName("dot");
+	  			if (n > slides.length) {slideIndex = 1} 
+	  			if (n < 1) {slideIndex = slides.length}
+	  			for (i = 0; i < slides.length; i++) {
+	      		slides[i].style.display = "none"; 
+	  			}
+	  			for (i = 0; i < dots.length; i++) {
+	      		dots[i].className = dots[i].className.replace(" active", "");
+	  			}
+	  			slides[slideIndex-1].style.display = "block"; 
+	  			dots[slideIndex-1].className += " active";
+				}
+				function showSlides2(n) {     /!-----Slide Show for F&B-----!/
+	  			var i;
+	  			var slides = document.getElementsByClassName("mySlides2");
+	  			var dots = document.getElementsByClassName("dot2");
+	  			if (n > slides.length) {slideIndex2 = 1} 
+	  			if (n < 1) {slideIndex2 = slides.length}
+	  			for (i = 0; i < slides.length; i++) {
+	      		slides[i].style.display = "none"; 
+	  			}
+	  			for (i = 0; i < dots.length; i++) {
+	      		dots[i].className = dots[i].className.replace(" active", "");
+	  			}
+	  			slides[slideIndex2-1].style.display = "block"; 
+	  			dots[slideIndex2-1].className += " active";
+				}
+				function showSlides3(n) {      /!-----Slide Show for Amenities-----!/
+	  			var i;
+	  			var slides = document.getElementsByClassName("mySlides3");
+	  			var dots = document.getElementsByClassName("dot3");
+	  			if (n > slides.length) {slideIndex3 = 1} 
+	  			if (n < 1) {slideIndex3 = slides.length}
+	  			for (i = 0; i < slides.length; i++) {
+	      		slides[i].style.display = "none"; 
+	  			}
+	  			for (i = 0; i < dots.length; i++) {
+	      		dots[i].className = dots[i].className.replace(" active", "");
+	  			}
+	  			slides[slideIndex3-1].style.display = "block"; 
+	  			dots[slideIndex3-1].className += " active";
+				}
+		</script>
+	</body>
+</html>

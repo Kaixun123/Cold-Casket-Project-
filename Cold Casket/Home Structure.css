@@ -1,0 +1,136 @@
+*{
+	box-sizing: border-box;
+}
+#motto{
+	font-style: italic;
+	font-family: garamond;
+	font-weight:bold;
+	font-size: 400%
+}
+.footer{
+	width: 100%;
+	font-family: garamond;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: #555;
+	color: white;
+	font-family:garamod;
+}
+
+.active{
+	background-color: #555;
+	color:white;
+	font-family:garamod;
+}
+ul{
+	list-style-type: none;
+	margin: auto;	
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	align: center;
+	
+}
+li{
+	display: inline-block;
+	align: center;
+	font-size: 100%;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+li a{
+	display: block;
+	padding: 14px 16px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	font-family: garamond;
+	font-weight: bold;
+}
+
+.navigation{
+	text-align: center;
+}
+
+.font{
+	text-align:center;
+	width:100%;
+	font-family:garamond;
+	font-weight:bold;
+	font-size:200%;
+	color: #003319;
+}
+.para{
+	width:60%;
+	text-align:center;
+	margin:auto;
+	font-size:125%;
+	font-family:garamond;
+	
+}
+
+.image {
+	width:50%;
+	margin-left:25%;
+	
+	height:auto;
+	border:1px solid #ddd;
+	border-radius:4px;
+	padding:5px;
+}
+
+* {box-sizing:border-box}
+	body {font-family: Verdana,sans-serif;}
+	.mySlides {display:none}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+
+.dot {
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #ddd;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+.mySlides {
+	height:500px;
+	width:100%;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+
+
+	
+
+	

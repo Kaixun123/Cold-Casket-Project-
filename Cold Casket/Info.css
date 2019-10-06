@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+}
+#motto{
+	font-style: italic;
+	font-family: garamond;
+	font-weight:bold;
+	font-size: 400%
+}
+.info{
+	font-family: garamond;
+	font-weight: bold;
+	text-align: center;
+}
+.footer{
+	width: 100%;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: #555;
+	color: white;
+}
+.active{
+	background-color: #555;
+	color: white;
+}
+ul{
+	list-style-type: none;
+	margin: auto;	
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;	
+}
+li{
+	display: inline-block;
+	font-size: 100%;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+li a{
+	display: block;
+	padding: 14px 16px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	font-family: garamond;
+	font-weight: bold;
+}
+.navigation{
+	text-align: center;
+}
+p{
+	font-family: garamond;
+}
+.info{
+	font-family: garamond;
+	font-weight: bold;
+	font-size: 150%;
+}
+#lemon{
+	display: none;
+	text-align: center;	
+}
+#apple{
+	display: none;
+	text-align: center;
+}
+.honeybee{
+	display: block;
+	text-align: center;
+}
+.cider{
+	display: block;
+	text-align: center;
+}
+.honeybee:hover{
+	background-color: #555;
+	color: white;
+}
+.honeybee:active{
+	background-color: #555;
+	color: white;
+}
+.cider:hover{
+	background-color: #555;
+	color: white;
+}
+.cider:active{
+	background-color: #555;
+	color: white;
+}

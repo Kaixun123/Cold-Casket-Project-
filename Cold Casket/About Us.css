@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+#motto{
+	font-style: italic;
+	font-family: garamond;
+	font-weight:bold;
+	font-size: 400%
+}
+.footer{
+	width: 100%;
+	font-family:garamond;
+	font-weight:bold;
+}
+
+a:hover{
+	background-color: #555;
+	color: white;
+}
+.services{
+	font-family: garamond;
+	font-weight: bold;
+	font-size: 100%;
+}
+.active{
+	background-color: #555;
+	color:white;
+}
+ul{
+	list-style-type: none;
+	margin: auto;	
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	align: center;
+	
+}
+li{
+	display: inline-block;
+	align: center;
+	font-size: 100%;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+li a{
+	display: block;
+	padding: 14px 16px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	font-family: garamond;
+	font-weight: bold;
+}
+.navigation,h1{
+	text-align: center;
+}
+
+.GroupPic{
+	height:auto;
+	width:50%;
+	margin-left:25%;
+	border-radius:20%;
+}
+.sugi{
+	text-align:center;
+	font-size:30px;
+	
+}	
+.bra{
+	margin-left:30%;
+	padding:35px;
+	background-image:url('image/Background.jpg');
+	border-radius:10px;
+	font-family:garamond;
+	font-weight:bold;
+	font-size: 125%;
+	position: relative;
+	margin-right: 20%
+}	
+.pa{
+	font-weight:bold;
+	text-align:center;
+	font-family:garamond;
+	font-size: 125%;
+	margin-left:10%;
+	margin-right:10%;
+}	
+.pics{
+	width:70%;	
+	margin-right: 20%;
+	border-radius:12px;
+}
+table, th, td {
+    padding:1px;
+}
+
+		

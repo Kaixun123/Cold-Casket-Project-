@@ -1,0 +1,394 @@
+*{
+	box-sizing: border-box;
+}
+#motto{
+	font-style: italic;
+	font-family: garamond;
+	font-weight:bold;
+	font-size: 400%
+}
+.footer{
+	width: 100%;
+	font-weight: bold;
+	font-family: garamond;
+}
+
+a:hover{
+	background-color: #555;
+	color: white;
+	
+}
+.services{
+	font-family: garamond;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+}
+a.active{
+	background-color: #555;
+	color: white;
+}
+ul{
+	list-style-type: none;
+	margin: auto;	
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	
+}
+li{
+	display: inline-block;
+	font-size: 100%;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+li a{
+	display: block;
+	padding: 14px 16px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	font-family: garamond;
+	font-weight: bold;
+}
+.navigation{
+	text-align: center;
+}
+p{
+	font-family: garamond;
+	
+}
+.PFScontainer{
+	position: relative;
+	width: 50%;
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+.PFSimage{
+	opacity: 1;
+	display: block;
+	width: 261.3px;
+	height: 174.56px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.PFSmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%. -50%);
+}
+.PFScontainer:hover .PFSimage{
+	opacity: 0.3;
+}
+.PFScontainer:hover .PFSmiddle{
+	opacity: 1;
+}
+.PFStext{
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+
+#PFS{
+	display: none;
+	text-align: center;
+
+}
+#EMP{
+	display: none;
+	text-align: center;
+}
+#WM{
+	display: none;
+	text-align: center;
+}
+#GC{
+	display: none;
+	text-align: center;
+}
+#AP{
+	display: none;
+	text-align: center;
+}
+.WMcontainer{
+	position: relative;
+	width: 50%;
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+.WMimage{
+	opacity: 1;
+	display: block;
+	width: 261.3px;
+	height: 174.56px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.WMmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.WMcontainer:hover .WMimage{
+	opacity: 0.3;
+}
+.WMcontainer:hover .WMmiddle{
+	opacity: 1;
+}
+.WMtext{
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+.EMPcontainer{
+	position: relative;
+	width: 50%;
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+.EMPimage{
+	opacity: 1;
+	display: block;
+	width: 261.3px;
+	height: 174.56px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.EMPmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.EMPcontainer:hover .EMPimage{
+	opacity: 0.3;
+}
+.EMPcontainer:hover .EMPmiddle{
+	opacity:1;
+}
+.EMPtext{
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+.GCcontainer{
+	position:relative;
+	width:50%;
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+.GCimage{
+	opacity: 1;
+	display: block;
+	width: 261.3px;
+	height: 174.56px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.GCmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.GCcontainer:hover .GCimage{
+	opacity: 0.3;
+}
+.GCcontainer:hover .GCmiddle{
+	opacity: 1;
+}
+.GCtext{
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+.APcontainer{
+	position: relative;
+	width: 50%;
+	margin-bottom: 15%;
+	margin-top: 15%;
+}
+.APimage{
+	opacity: 1;
+	display: block;
+	width: 261.3px;
+	height: 174.56px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.APmiddle{
+	transform: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.APcontainer:hover .APimage{
+	opacity: 0.3;
+}
+.APcontainer:hover .APmiddle{
+	opacity: 1;
+}
+.APtext{
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+}
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.prev,.next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover,.next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.text{
+	color:black;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.dot{
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.dot2{
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.dot3{
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+	background-color: #717171;
+}
+.fade{
+	-moz-animation-name: fade;
+	-moz-animation-name: 1.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@-moz-keyframes fade{
+	from {opacity:.4}
+	to {opacity: 1}
+}
+@-ms-keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+@keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}.fade2{
+	-moz-animation-name: fade;
+	-moz-animation-name: 1.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s
+}
+@-webkit-keyframes fade2 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@-moz-keyframes fade2{
+	from {opacity:.4}
+	to {opacity: 1}
+}
+@-ms-keyframes fade2{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+@keyframes fade2{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+.fade3{
+	-moz-animation-name: fade;
+	-moz-animation-name: 1.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s
+}
+@-webkit-keyframes fade3 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@-moz-keyframes fade3{
+	from {opacity:.4}
+	to {opacity: 1}
+}
+@-ms-keyframes fade3{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+@keyframes fade3{
+	from {opacity: .4}
+	to {opacity: 1}

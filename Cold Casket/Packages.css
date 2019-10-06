@@ -1,0 +1,249 @@
+*{
+	box-sizing: border-box;
+}
+#motto{
+	font-style: italic;
+	font-family: garamond;
+	font-weight:bold;
+	font-size: 400%;
+}
+.footer{
+	width: 100%;
+}
+a:hover{
+	background-color: #555;
+	color: white;
+}
+.active{
+	background-color: #555;
+	color: white;
+}
+.navigation ul{
+	list-style-type: none;
+	margin: auto;	
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	align: center;
+	
+}
+.navigation li{
+	display: inline-block;
+	align: center;
+	font-size: 100%;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+li a{
+	display: block;
+	padding: 14px 16px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	font-family: garamond;
+	font-weight: bold;
+}
+.navigation{
+	text-align: center;
+}
+
+
+
+
+
+
+
+.container{
+	margin-left: 4%;
+	margin-bottom: 0.5%;
+	position: relative;
+	width: 15%;
+	border: 0px solid red;
+}
+.image{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.middle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.container:hover .image{
+	opacity: 0.3;
+}
+.container:hover .middle{
+	opacity: 1;
+}
+.text{
+	background-color: #202020;
+	color: white;
+	padding: 16px 32px;
+}
+
+
+
+
+
+
+.content{
+	border: 1px solid #E0E0E0;
+	width: 70%;
+	height: auto;
+	position: absolute;
+	margin-left: 25%;
+	display: none;
+	font-family: garamond;
+	font-weight: bold;
+	background-image: url("Package Image/Background.jpg");
+	line-height: 300%;
+}
+.stuff{
+	border: 1px solid #E0E0E0;
+	width: 70%;
+	height: auto;
+	position: absolute;
+	margin-left: 25%;
+	font-family: garamond;
+	font-weight: bold;
+	text-align: center;
+	background-image: url("Package Image/Background.jpg");
+	line-height: 200%;
+}
+.stuff p{
+	padding: 5%;
+	font-size: 110%;
+}
+.stuff img{
+	width: 50%;
+	height: auto;
+	align: center;
+	border-radius: 10%;
+}
+.content h1{
+	text-align: center;
+}
+.content h2{
+	text-align: center;
+}
+.content li {
+	list-style-type: none;
+	font-size: 110%;
+}
+.B1{
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+	border-radius: 5%;
+}
+.B2{
+	float: right;
+	width: 30%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border-radius: 5%;
+}
+.C1{
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 5%;
+}
+.C2{
+	float: right;
+	width: 30%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border-radius: 5%;
+}
+.F1{
+	float: right;
+	width: 30%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border-radius: 5%;
+}
+.H1{
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+	margin-top: 2%;
+	border-radius: 5%;
+}
+.H2{
+	float: right;
+	width: 30%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border-radius: 5%;
+}
+.T1{
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 5%;
+}
+.T2{
+	float: right;
+	width: 30%;
+	margin-right: 20%;
+	margin-bottom: 3%;
+	border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+.additional{
+	text-align: center;
+	border: 0px solid red;
+	margin: 5%;
+	font-family: garamond;
+	font-weight: bold;
+}
+.additional p{
+	font-size: 110%;
+}
+.extra{
+	width: 35%;
+}
+.hearse{
+	width: 100%;
+	height: auto;
+}
+.casket{
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+.flower{
+	width: 70%;
+	height: auto;
+	max-height: 280px;
+}
+
+
+
+
+
+
+
+.footer{
+	font-family: garamond;
+	font-weight: bold;
+}
